@@ -1,0 +1,67 @@
+.icon-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 4rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-box {
+  flex: 1 1 150px;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.icon-box i {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #0077cc;
+}
+
+.skills-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  padding: 1rem 0;
+  align-items: center;
+}
+
+.skill-box {
+  flex: 1 1 150px;
+  text-align: center;
+  font-size: 1rem;
+  color: #444;
+  cursor: pointer;
+  transition: transform ease 0.4s;
+}
+
+.skill-box:hover{
+    transform: scale(1.2);
+}
+
+.skill-box i {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #28a745;
+}
+
+#skills h2,
+.skill-box p {
+    color: #fff;
+}
+
+.skill-list{
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+	z-index: 2;
+}
+
+#skills{
+    background-color: #000;
+}
